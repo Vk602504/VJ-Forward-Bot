@@ -8,7 +8,7 @@ class Config:
     API_ID = int(environ.get("API_ID", "20838202"))
     API_HASH = environ.get("API_HASH", "fde3e78e3256ae13e868b39088c83838")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
-    BOT_SESSION = environ.get("BOT_SESSION", "vkbot") 
+    BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "")
     DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
     BOT_OWNER = int(environ.get("BOT_OWNER", "5387859888"))
